@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Head Section-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Feni Auxilia">
+        <meta name="description" content="Webpage with Html, Css, Js">
+        <meta http-equiv="X-UA-Compactible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Golden Blackstone</title>
+        <link rel="stylesheet" href="stylingsheet.css">
+        <script src="https://kit.fontawesome.com/bbcdde8d07.js" crossorigin="anonymous"></script>
+    </head>
+
+    <!--Body Section-->
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img/LOGOO-removebg.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Cybersecurity Aspirant</p>
+                    <h1>Hey, I'm <span>Feni Auxilia</span><br>From Chennai</h1>
+                </div>
+            </div>
+        </div>
+        <!--About Section-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/Passport-removebg.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a college going student pursuing MSc Cybersecurity in PSG College of Technology. I've compleeted my schooling in St.Columban's.A.I.H.S.School. I'm good at learning new things and love it too. I'm also a good listener. I also have high scores in Math and Computer Science in my Higher Secondary Scjool. And I am proud to tell that I'm the topper of my class in my 11th and 12th.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('interests')">Interests</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="interests">
+                            <ul>
+                                <li><span>Web Designing</span><br>A digital masterpiece where artistry meets functionality</li>
+                                <li><span>Content-Writing</span><br>The art of crafting a tapestry of words</li>
+                                <li><span>Athletics</span><br>Each Athlete is a sculptor of their destiny</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li><span>Reading</span><br>A captivating journey through the corridors of imagination</li>
+                                <li><span>Calligraphy</span><br>The artful dance of ink and paper</li>
+                                <li><span>Listening to Music</span><br>A powerful conduit that connects the listener to a specific emotional landscape</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>C & C++</span><br>Competetive Programming</li>
+                                <li><span>SQL</span><br>Database Connectivity Language</li>
+                                <li><span>HTML & CSS</span><br>Front-end Development</li>
+                                <li><span>Python</span><br>Competetive Programming</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Projects Section-->
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="projects-list">
+                    <div class="project">
+                        <img src="img/ToDL-removebg.png">
+                        <div class="layer">
+                            <h3>ToDL</h3>
+                            <p>This Python-powered maestro is a symphony of tasks, seamlessly choreographing the creation, editing, and deletion of tasks, all stored in a textual composition</p>
+                            <a href="#"><i class="fas fa-solid fa-angles-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="img/Tunify-removebg.png">
+                        <div class="layer">
+                            <h3>Tunify</h3>
+                            <p>This Python symphony orchestrates Tkinter's visual ballet with Pygame's melodic prowess, offering a user-friendly MP3 player</p>
+                            <a href="#"><i class="fas fa-solid fa-angles-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="img/Virtual_bibliothea-removebg.png">
+                        <div class="layer">
+                            <h3>Virtual Bibliotheca</h3>
+                            <p>In the realm of code, this Java-powered  haven, entwined with  MySQL, unfolds an online bookstore where users embark on literary quests</p>
+                            <a href="#"><i class="fas fa-solid fa-angles-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="img/4d-removebg.png">
+                        <div class="layer">
+                            <h3>4D EthicBox</h3>
+                            <p>In the realm of 4D EthicBox, where a Ubuntu Desktop is fashioned after Doraemon's 4D-pocket, here CTF challenges bloom beckoning users on a flag-finding escapade</p>
+                            <a href="#"><i class="fas fa-solid fa-angles-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!--Contact Section-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>   cyberphantom0004@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>   9840846222</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/exotic_flame__/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100077738730227"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/feni-auxilia-337344220/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.snapchat.com/add/feni_1402"><i class="fa-brands fa-snapchat"></i></a>
+                        </div>
+                        <a href="21PC09.docx.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright     <i class="fa-regular fa-copyright"></i>     Feni Auxilia</p>
+            </div>
+        </div>
+
+        <!--JS Section-->
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu")
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwyUKflcMvbL1q1FmgeTxlZ32VcA6gAnV_WsT4QuIreRlAqEW7v4JGD3m0lcHvtnVoGCA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => {
+                    msg.innerHTML = "Message not sent"
+                })
+            })
+          </script>
+    </body>
+</html>
